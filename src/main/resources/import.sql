@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS  fuel_price;
-create table fuel_price(fuel_date date,ulsp_pp varchar(255),ulsp_pp__week_diff varchar(255),ulsp_pp_year_diff varchar(255),ulsp_duty varchar(255),ulsp_vat varchar(255),ulsd_pp varchar(255),ulsd_pp_week_diff varchar(255),ulsd_pp_year_diff varchar(255),ulsd_duty varchar(255),ulsd_vat varchar(255));
+create table fuel_price(fuel_date date,ulsp_pp varchar(255),ulsp_pp_week_diff varchar(255),ulsp_pp_year_diff varchar(255),ulsp_duty varchar(255),ulsp_vat varchar(255),ulsd_pp varchar(255),ulsd_pp_week_diff varchar(255),ulsd_pp_year_diff varchar(255),ulsd_duty varchar(255),ulsd_vat varchar(255));
 insert into fuel_price values('2003-06-09','74.59','','','45.82','17.5','76.77','','','45.82','17.5');
 insert into fuel_price values('2003-06-16','74.47','','','45.82','17.5','76.69','','','45.82','17.5');
 insert into fuel_price values('2003-06-23','74.42','','','45.82','17.5','76.62','','','45.82','17.5');

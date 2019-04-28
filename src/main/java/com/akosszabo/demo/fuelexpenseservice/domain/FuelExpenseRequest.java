@@ -1,9 +1,9 @@
-package com.akosszabo.demo.fuelexpenseservice.service;
+package com.akosszabo.demo.fuelexpenseservice.domain;
 
-import com.akosszabo.demo.fuelexpenseservice.domain.FuelType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Data
@@ -12,7 +12,7 @@ public class FuelExpenseRequest {
 
     private LocalDate date;
     private FuelType type;
-    private long mpg;
-    private long mileage;
+    private BigDecimal mpg;
+    private BigDecimal mileage;
 
 }
