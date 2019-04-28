@@ -1,4 +1,6 @@
 # FuelExpenseService
+**Application url:**
+https://fuel-expense-service.cfapps.io/api/expense?date=2018-02-14&type=ULSP&mpg=60&mileage=10.0
 ## Building and running the application
 ### Building the artifact
 *mnv clean package* from the project folder
