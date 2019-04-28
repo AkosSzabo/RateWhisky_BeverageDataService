@@ -1,0 +1,7 @@
+---
+buildpacks:
+- java_buildpack
+applications:
+- name: fuel-expense-service
+  path: target/FuelExpenseService-0.0.1-SNAPSHOT.jar
+  hostname: fuel-expense-service
