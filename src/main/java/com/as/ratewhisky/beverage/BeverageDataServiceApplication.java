@@ -1,13 +1,13 @@
-package com.akosszabo.demo.fuelexpenseservice;
+package com.as.ratewhisky.beverage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FuelExpenseServiceApplication {
+public class BeverageDataServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FuelExpenseServiceApplication.class, args);
+		SpringApplication.run(BeverageDataServiceApplication.class, args);
 	}
 
 }
